@@ -4,17 +4,17 @@ This repository contains five Python scripts for interacting with an SQLite data
 
 ## Files
 
-1.  **`read_tables.py`:**
+1.  **`1readTablesinDB.py`:**
     * This script reads and prints the names of all tables present in the `sampleDB.db` database.
     * It uses the `sqlite_master` table to retrieve table names.
     * It outputs the table names to the terminal.
 
-2.  **`read_data.py`:**
+2.  **`2readDatainTable.py`:**
     * This script reads and prints all records from the `sampleTable` table.
     * It retrieves all columns and rows from the table.
     * It outputs the data to the terminal.
 
-3.  **`create_record_gui.py`:**
+3.  **`3createNewRecordinTable.py`:**
     * This script provides a graphical user interface (GUI) for creating new records in the `sampleTable` table.
     * It uses Tkinter for the GUI.
     * It allows the user to enter values for the `id`, `name`, `address`, `year`, and `color` columns.
@@ -22,7 +22,7 @@ This repository contains five Python scripts for interacting with an SQLite data
     * Once the submit button is pressed, the text boxes are cleared, and a message is printed to the terminal.
     * ID and year are treated as integer inputs.
 
-4.  **`update_record_gui.py`:**
+4.  **`4updateRecordinTable.py`:**
     * This script provides a GUI for updating existing records in the `sampleTable` table.
     * It updates the name, address, year, and color columns, based on the ID.
     * It uses Tkinter for the GUI.
@@ -31,7 +31,7 @@ This repository contains five Python scripts for interacting with an SQLite data
     * Once the update button is pressed, the text boxes are cleared, and a message is printed to the terminal.
     * ID and year are treated as integer inputs.
 
-5.  **`delete_record_gui.py`:**
+5.  **`5deleteRecordinTable.py`:**
     * This script provides a GUI for deleting records from the `sampleTable` table.
     * It uses Tkinter for the GUI.
     * It requires the user to enter the `id` of the record to be deleted.
